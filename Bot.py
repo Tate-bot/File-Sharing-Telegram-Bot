@@ -14,7 +14,7 @@ from telegram.ext import (
 from telegram.constants import ParseMode
 
 # ================= CONFIG =================
-BOT_TOKEN = "6414210332:AAF_D9h6UmytpywoG_582GJdb3KjhPMvU1A"
+BOT_TOKEN = "YOUR_BOT_TOKRN"
 BOT_USERNAME = "UR_File_Sharing_Bot"     # without @
 CHANNEL_ID = -1003417746982               # private storage channel
 DELETE_AFTER = 300                        # 5 minutes
