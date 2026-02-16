@@ -15,8 +15,8 @@ from telegram.constants import ParseMode
 
 # ================= CONFIG =================
 BOT_TOKEN = "YOUR_BOT_TOKEN"
-BOT_USERNAME = "UR_File_Sharing_Bot" # Change your bot username without @
-CHANNEL_ID = -10012345678          # private storage channel
+BOT_USERNAME = "preview2Bot" # Change your bot username without @
+CHANNEL_ID = -1003454021940        # private storage channel
 DELETE_AFTER = 300                        # 5 minutes
 # =========================================
 
@@ -85,7 +85,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # Normal /start
     await update.message.reply_text(
-        f"👋 <b> Hello {user.first_name}! This Is File Sharing Bot</b>\n\n"
+        f"👋 <b> Hello {user.first_name}! This Is Premium Preview Bot</b>\n\n"
         "• Upload any video, document, image or audio ⬇️",
         parse_mode=ParseMode.HTML
     )
